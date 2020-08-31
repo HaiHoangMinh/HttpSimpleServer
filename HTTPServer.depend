@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1585810100 source:j:\lthtm\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1585810079 j:\lthtm\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1596561284 source:j:\lthtm\httpserver\httpserver.cpp
+	<bits/stdc++.h>
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	"httpserver.h"
+	"httpsession.h"
+
+1594192218 j:\lthtm\httpserver\httpserver.h
+	<fstream>
+	<string.h>
+	"tcpserver.h"
+	"httpsession.h"
+
+1590586727 j:\lthtm\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1585316080 j:\lthtm\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1586256327 j:\lthtm\httpserver\tcpsocket.h
+	"socket.h"
+
+1583727598 j:\lthtm\httpserver\socket.h
+	<string>
+	<exception>
+
+1591071389 j:\lthtm\httpserver\session.h
+	"tcpsocket.h"
+
+1596561747 j:\lthtm\httpserver\httpsession.h
+	<vector>
+	"session.h"
+	"httpserver.h"
+	<string.h>
+	<thread>
+	<sstream>
+	<iostream>
+
+1585998758 source:j:\lthtm\httpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1585998655 j:\lthtm\httpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1591069013 source:j:\lthtm\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1591685288 j:\lthtm\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1589682117 source:j:\lthtm\httpserver\session.cpp
+	"session.h"
+
+1583507332 source:j:\lthtm\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1589523186 source:j:\lthtm\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1585203401 source:j:\lthtm\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1586256364 source:j:\lthtm\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1591951517 source:j:\lthtm\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+	<windows.h>
+
+1596561747 source:j:\lthtm\httpserver\httpsession.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	<thread>
+	"httpsession.h"
+
+1585810100 source:i:\lthtm\httpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1585810079 i:\lthtm\httpserver\cli.h
+	<cstdint>
+	<string>
+
+1597300956 source:i:\lthtm\httpserver\httpserver.cpp
+	<bits/stdc++.h>
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	"httpserver.h"
+	"httpsession.h"
+
+1597298216 i:\lthtm\httpserver\httpserver.h
+	<fstream>
+	<string.h>
+	"tcpserver.h"
+	"httpsession.h"
+
+1590586727 i:\lthtm\httpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1585316080 i:\lthtm\httpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1586256327 i:\lthtm\httpserver\tcpsocket.h
+	"socket.h"
+
+1583727598 i:\lthtm\httpserver\socket.h
+	<string>
+	<exception>
+
+1591071389 i:\lthtm\httpserver\session.h
+	"tcpsocket.h"
+
+1596561747 i:\lthtm\httpserver\httpsession.h
+	<vector>
+	"session.h"
+	"httpserver.h"
+	<string.h>
+	<thread>
+	<sstream>
+	<iostream>
+
+1597300796 source:i:\lthtm\httpserver\httpsession.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	<thread>
+	"httpsession.h"
+	<ctime>
+
+1591069013 source:i:\lthtm\httpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1591685288 i:\lthtm\httpserver\servercli.h
+	"cli.h"
+	"httpserver.h"
+
+1591951517 source:i:\lthtm\httpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+	<windows.h>
+
+1589682117 source:i:\lthtm\httpserver\session.cpp
+	"session.h"
+
+1583507332 source:i:\lthtm\httpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1589523186 source:i:\lthtm\httpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1585203401 source:i:\lthtm\httpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1597298091 source:i:\lthtm\httpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
